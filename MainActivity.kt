@@ -204,6 +204,8 @@ fun SignUpScreen(){
 
                         Log.d("SignUpScreen", "Username: $username")
                         Log.d("SignUpScreen", "Password: $password")
+                        val intent = Intent(context, MainActivity2::class.java)
+                        context.startActivity(intent)
                     }
                 },
                 shape = RoundedCornerShape(5.dp),
